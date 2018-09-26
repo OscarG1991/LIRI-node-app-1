@@ -1,7 +1,10 @@
-console.log('this is loaded');
-
-
-module.exports.spotifyKeys = {
+module.exports.Keys = {
+  spotify : {
   id: process.env.SPOTIFY_ID,
   secret: process.env.SPOTIFY_SECRET
+  },
+
+
+
+
 };
