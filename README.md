@@ -54,33 +54,28 @@ LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretatio
 
             * returns value depending on <argument_1> and <argument_2>.
 
-            
          
 
-
-
-
-
-
-
-
-
-
-
-
-To retrieve the data that will power this app, you'll need to send requests to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
+## Liri uses:
 
    * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
 
    * [Request](https://www.npmjs.com/package/request)
 
-     * You'll use Request to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+   * [Axios](https://www.npmjs.com/package/axios)
 
    * [Moment](https://www.npmjs.com/package/moment)
 
    * [DotEnv](https://www.npmjs.com/package/dotenv)
    
-## Submission Guide
+## Screenshots:
+
+![movie-this](./assets/images/spotify-this-song.jpg)
+![movie-this](./assets/images/spotify-this-song.jpg)
+![movie-this](./assets/images/spotify-this-song.jpg)
+
+
+
 
 Make sure you use the normal GitHub. Because this is a CLI App, there will be no need to deploy it to Heroku. This time, though, you need to include screenshots, a gif, and/or a video showing us that you got the app working with no bugs. You can include these screenshots or a link to a video in a `README.md` file.
 
