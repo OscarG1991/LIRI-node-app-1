@@ -1,1 +1,17 @@
-command log at: 15:35:52. Params: spotify-this-song; I Want it That Way; 
+command log at: 17:57:08. Params: spotify-this-song; girl; 
+command log at: 17:57:28. Params: spotify-this-song; girl; 
+command log at: 17:57:28. Params: spotify-this-song; girl; 
+command log at: 17:58:01. Params: spotify-this-song; girl; 
+command log at: 18:10:18. Params: spotify-this-song; girl; 
+command log at: 18:12:22. Params: spotify-this-song; girl; 
+command log at: 18:13:08. Params: spotify-this-song; girl; 
+command log at: 18:14:17. Params: spotify-this-song; girl; 
+command log at: 18:14:59. Params: spotify-this-song; girl; 
+command log at: 18:18:23. Params: spotify-this-song; girl; 
+command log at: 18:18:50. Params: spotify-this-song; girl; 
+command log at: 18:19:49. Params: spotify-this-song; girl; 
+command log at: 18:22:58. Params: spotify-this-song; girl; 
+command log at: 18:24:09. Params: spotify-this-song; girl; 
+command log at: 18:33:24. Params: spotify-this-song; girl; 
+command log at: 18:33:56. Params: spotify-this-song; girl; 
+command log at: 18:28:12. Params: spotify-this-song; it's a beautiful life; 
