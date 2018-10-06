@@ -55,3 +55,5 @@ command log at: 18:44:08. Params: spotify-this-song; ave maria;
 command log at: 18:44:21. Params: spotify-this-song; undefined; 
 command log at: 18:44:59. Params: spotify-this-song; only you; 
 command log at: 18:47:14. Params: do-what-it-says; undefined; 
+command log at: 18:54:55. Params: spotify-this-song; love; 
+command log at: 18:55:02. Params: spotify-this-song; love; 
