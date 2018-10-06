@@ -2,6 +2,15 @@
 
 LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
+### Versions
+
+There are Two versions:
+
+1. `liri.js` - whole programm in one js file.
+
+2. `liriClass.js` and `run_liri.js` - <liriClass> is made as class file and runs from the `run_liri.js`.
+
+
 ### Functionality
 
 1. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
@@ -70,7 +79,16 @@ LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretatio
    
 ## Screenshots:
 
-![movie-this](./assets/images/concert-this.jpg)
-![movie-this](./assets/images/spotify-this-song.jpg)
+# version 1
+
+![concert-this](./assets/images/concert-this.jpg)
+![spotify-this-song](./assets/images/spotify-this-song.jpg)
 ![movie-this](./assets/images/movie-this.jpg)
-![movie-this](./assets/images/do-what-it-says.jpg)
+![do-what-it-says](./assets/images/do-what-it-says.jpg)
+
+# version 2
+
+![concert-this](./assets/images/concert-this_class_with_and_W-O_args.jpg)
+![spotify-this-song](./assets/images/spotify-this-song_class_with_and_W-O_args.jpg)
+![movie-this](./assets/images/movie-this_class_with_and_W-O_args.jpg)
+![do-what-it-says](./assets/images/do-what-it-says_class.jpg)

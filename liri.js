@@ -13,22 +13,22 @@ var logTxt = 'command log at: ' + time + '. Params: ' + firstParm + '; ' + secon
 
 function command(arg){
 
-    switch(arg) {
-      case 'concert-this': {
-        bands(secondParm);
-        break;
-      }
-      case 'spotify-this-song': {
-        spotifyFunc(secondParm);
-        break;
-      }
-      case 'movie-this': {
-        if (!secondParm) secondParm = "Mr. Nobody";
-        omdb(secondParm);
-        break;
-      }
-      case 'do-what-it-says': {
-        doWhatItSays();
+  switch(arg) {
+    case 'concert-this': {
+      bands(secondParm);
+      break;
+    }
+    case 'spotify-this-song': {
+      spotifyFunc(secondParm);
+      break;
+    }
+    case 'movie-this': {
+      if (!secondParm) secondParm = "Mr. Nobody";
+      omdb(secondParm);
+      break;
+    }
+    case 'do-what-it-says': {
+      doWhatItSays();
     }
   }
 }
@@ -81,16 +81,16 @@ function spotifyFunc(arg){
 
     log();
     
-      if (err) {
-        return console.log('Error occurred: ' + err);
-      }
-      var result = {
-        "Band name: " : data.tracks.items[0].album.artists[0].name,
-        "Song name: " : data.tracks.items[0].name,
-        "preview_url: " : data.tracks.items[0].preview_url,
-        "Album name: " : data.tracks.items[0].album.name
-      }
-      consoleLog(result);
+    if (err) {
+      return console.log('Error occurred: ' + err);
+    }
+    var result = {
+      "Band name: " : data.tracks.items[0].album.artists[0].name,
+      "Song name: " : data.tracks.items[0].name,
+      "preview_url: " : data.tracks.items[0].preview_url,
+      "Album name: " : data.tracks.items[0].album.name
+    }
+    consoleLog(result);
   });
 }
 
@@ -104,7 +104,7 @@ function omdb(arg){
         "Title: " : response.data.Title,
         "Year: " : response.data.Year,
         "imdbRating: " : response.data.imdbRating,
-        "Rotten Tomatoes Rating: " : response.data.Ratings[1].Value,
+        "Rotten Tomatoes Rating: " : response.data.Ratings ? response.data.Ratings[1].Value : "",
         "Country: " : response.data.Country,
         "Language: " : response.data.Language,
         "Plot: " : response.data.Plot,
